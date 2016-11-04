@@ -1,5 +1,8 @@
 #ifndef DELETERECORD_H
 #define DELETERECORD_H
+#include "bplus.h"
+
+extern node* root;
 
 #include <QDialog>
 
@@ -14,6 +17,9 @@ class DeleteRecord : public QDialog
 public:
     explicit DeleteRecord(QWidget *parent = 0);
     ~DeleteRecord();
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::DeleteRecord *ui;

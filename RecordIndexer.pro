@@ -13,8 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    bplus.c \
+    addrecord.cpp \
+    deleterecord.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    bplus.h \
+    sum.h \
+    addrecord.h \
+    deleterecord.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    addrecord.ui \
+    deleterecord.ui
