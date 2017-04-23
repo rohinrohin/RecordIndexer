@@ -58,6 +58,9 @@
    <property name="text">
     <string>Delete</string>
    </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
@@ -162,7 +165,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Cancel</string>
+    <string>Update</string>
    </property>
   </widget>
   <widget class="QWidget" name="layoutWidget">

@@ -15,11 +15,16 @@ class DeleteRecord : public QDialog
     Q_OBJECT
 
 public:
+    void hideit();
     explicit DeleteRecord(QWidget *parent = 0);
     ~DeleteRecord();
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::DeleteRecord *ui;

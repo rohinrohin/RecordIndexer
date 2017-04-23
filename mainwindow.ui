@@ -6,15 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>656</width>
-    <height>274</height>
+    <width>741</width>
+    <height>275</height>
    </rect>
   </property>
   <property name="cursor">
    <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>RECORD INDEXER (DBMS)</string>
+  </property>
+  <property name="statusTip">
+   <string>DS PROJECT BY ROHIT, ROHIN &amp; SANJAY</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QSplitter" name="splitter_2">
@@ -38,10 +41,10 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>30</y>
-      <width>181</width>
-      <height>161</height>
+      <x>520</x>
+      <y>20</y>
+      <width>201</width>
+      <height>181</height>
      </rect>
     </property>
     <property name="font">
@@ -55,10 +58,10 @@
     <widget class="QPushButton" name="pushButton_6">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
+       <x>30</x>
+       <y>50</y>
        <width>151</width>
-       <height>61</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -73,10 +76,10 @@
     <widget class="QPushButton" name="pushButton_7">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>90</y>
+       <x>30</x>
+       <y>110</y>
        <width>151</width>
-       <height>61</height>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -94,8 +97,8 @@
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>341</width>
-      <height>191</height>
+      <width>491</width>
+      <height>181</height>
      </rect>
     </property>
     <property name="font">
@@ -109,10 +112,10 @@
     <widget class="QPushButton" name="pushButton_4">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>30</y>
-       <width>151</width>
-       <height>61</height>
+       <x>260</x>
+       <y>50</y>
+       <width>221</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -121,16 +124,16 @@
       </font>
      </property>
      <property name="text">
-      <string>UPDATE RECORD</string>
+      <string>VIEW RECORDS</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_3">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>30</y>
-       <width>151</width>
-       <height>61</height>
+       <y>50</y>
+       <width>241</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -145,10 +148,10 @@
     <widget class="QPushButton" name="pushButton_8">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>260</x>
        <y>110</y>
-       <width>151</width>
-       <height>61</height>
+       <width>221</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -165,8 +168,8 @@
       <rect>
        <x>10</x>
        <y>110</y>
-       <width>151</width>
-       <height>61</height>
+       <width>241</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -175,32 +178,10 @@
       </font>
      </property>
      <property name="text">
-      <string>DELETE RECORD</string>
+      <string>FIND/DELETE/UPDATE</string>
      </property>
     </widget>
-    <zorder>pushButton_3</zorder>
-    <zorder>pushButton_4</zorder>
-    <zorder>pushButton_8</zorder>
-    <zorder>pushButton_5</zorder>
-    <zorder>pushButton_5</zorder>
-    <zorder>pushButton_3</zorder>
-    <zorder>pushButton_4</zorder>
-    <zorder>pushButton_8</zorder>
-    <zorder>pushButton_4</zorder>
-    <zorder>pushButton_3</zorder>
-    <zorder>pushButton_8</zorder>
-    <zorder>pushButton_5</zorder>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>656</width>
-     <height>26</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -211,6 +192,21 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionRECORD">
+   <property name="text">
+    <string>RECORD</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

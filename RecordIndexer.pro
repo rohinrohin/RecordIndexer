@@ -16,14 +16,20 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     bplus.c \
     addrecord.cpp \
-    deleterecord.cpp
+    deleterecord.cpp \
+    listpage.cpp \
+    querybrowser.cpp
 
 HEADERS  += mainwindow.h \
     bplus.h \
     sum.h \
     addrecord.h \
-    deleterecord.h
+    deleterecord.h \
+    listpage.h \
+    querybrowser.h
 
 FORMS    += mainwindow.ui \
     addrecord.ui \
-    deleterecord.ui
+    deleterecord.ui \
+    listpage.ui \
+    querybrowser.ui
